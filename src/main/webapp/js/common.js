@@ -95,8 +95,8 @@ joe = {
 };
 
 joe.webtest = {
-		url :  (location.href.lastIndexOf('qiduwl.com/') >=0) ? (location.href.slice(0, location.href.lastIndexOf('qiduwl.com/'))+'qiduwl.com/HttpService'): (location.href.slice(0, location.href.lastIndexOf('datapersons/'))+'datapersons/HttpService'),
-//		url :  location.href.slice(0, location.href.lastIndexOf('datapersons/'))+'datapersons/HttpService',
+//		url :  (location.href.lastIndexOf('qiduwl.com/') >=0) ? (location.href.slice(0, location.href.lastIndexOf('qiduwl.com/'))+'qiduwl.com/HttpService'): (location.href.slice(0, location.href.lastIndexOf('datapersons/'))+'datapersons/HttpService'),
+		url :  location.href.slice(0, location.href.lastIndexOf('webtest/'))+'webtest/HttpService',
 		
 		buildRequestParam : function(ops){
 			var r = $.evalJSON(joe.requestTplStr);
