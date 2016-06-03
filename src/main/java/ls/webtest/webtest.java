@@ -56,6 +56,7 @@ public class webtest {
 		//SELECT ((consumeTotal%100)+curConsume)/100
 	}
 	
+	
 	//ReturnFee 
 	public static String processReturnFee(){
 		
