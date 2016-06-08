@@ -5,10 +5,19 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.CopyOnWriteArraySet;
+
+import javax.websocket.OnClose;
+import javax.websocket.OnError;
+import javax.websocket.OnMessage;
+import javax.websocket.OnOpen;
+import javax.websocket.Session;
+import javax.websocket.server.ServerEndpoint;
 
 import scala.Math;
 
 public class webtest {
+	private static CopyOnWriteArraySet<MyWebSocket> webSocketSet = new CopyOnWriteArraySet<MyWebSocket>();
 	public static void main(String[] args){
 		
 		String queueIDList = genQueueID();
@@ -64,7 +73,7 @@ public class webtest {
 	
 	//ReturnFee 
 	public static String processReturnFee(){
-		
+		WebSocket ws = new WebSocket();
 		return "";
 	}
 }
