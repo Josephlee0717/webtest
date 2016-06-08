@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+ <title>添加消费</title>
+ <link rel="stylesheet" href="css/body.css" />  
+ 
+ 
+ <link rel="icon" href="../images/logo.png" />
+ <script src="../js/jquery/jquery-1.11.0.min.js" type="text/javascript"></script>
+ <script type="text/javascript" src="../js/jquery/jquery.json-2.3.min.js"></script>
+ <link rel="stylesheet" href="../js/artDialog/skins/black.css?4.1.2"></link>
+ <script src="../js/artDialog/artDialog.source.js?skin=black"></script> 
+ <script src="../js/util.js" type="text/javascript"></script> 
+ <script type="text/javascript" src="../js/uploadify/jquery.uploadify.js"></script>
+ <link rel="stylesheet" type="text/css" href="../js/uploadify/uploadify.css" />
+ <script type="text/javascript" src="../js/Area.js" ></script>
+ <script type="text/javascript" src="../js/AreaData_min.js" ></script> 
+ <script type="text/javascript" src="../js/judg.js"></script>  
+ <script type="text/javascript" src="../js/judg/addPayInfor.js" ></script>   
+ <script type="text/javascript" src="../js/tll.js"></script>
+ <script src="../js/common.js" type="text/javascript"></script> 
+ <script src="../js/main.js" type="text/javascript"></script> 
+</head>
+<body>
+  <div class="registerBody">
+   <div class="head">
+    <span><a href="javascript:history.back(-1);" id="return"><</a></span>
+    <span class="title">消费养老系统</span>
+   </div>
+   <!--body-->
+   <div class="body">
+    <div class="number">
+     添加消费记录
+    </div>
+    <form id="postForm" action="../alipayapi.jsp" method="POST" target="_blank">
+	    <div class="infor">
+	     <p class="borderBottom">
+	      <span class="red">商店信息 *</span>
+	     </p><input name="userid" id="userid" type="text" value="" readonly="readonly" style="display:none;" class="readColor">	           
+	     <p class="borderBottom">
+	      <span id="shopNameSpan" ></span><input name="shopName" id="shopName" type="text" value="汉口香港街华莱士" readonly="readonly" style="display:none;" class="readColor">
+	     </p>
+	     <input name="WIDsubject" id="WIDsubject" type="text" value="七度未来" readonly="readonly" style="display:none;" class="readColor">
+	     <input name="WIDout_trade_no" id="out_trade_no" type="text" value="" name="UName" readonly="readonly" style="display:none;" required="required">
+	     <p class="borderBottom">
+	      <span class="red">用户信息 *</span>
+	     </p>      
+	     <p>
+	      <span>用户ID</span>
+	      <span><input name="customerid" id="consumerid" type="text" value=""  name="UName" required="required"></span>
+	      <span id="promptUserId"></span>
+	      <span>消费金额</span>
+	      <span><input name="WIDtotal_fee" id="total_fee" type="text" value="0.01" name="UName" required="required"></span> 
+	      <span id="promptPayNumber"></span>
+	     </p>
+	    </div>
+	</form>
+   </div>
+   <!--floor-->
+   <div class="floor">
+    <a href="#" class="registerA" id="enterPay">确&nbsp;&nbsp;认</a>
+   </div>
+</body>
+</html>

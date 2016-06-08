@@ -1,0 +1,58 @@
+[
+  {
+    "uri": "http://www.webserviceX.NET#Sums",
+    "lemma": "Sums",
+    "termUri": "",
+    "rdfType": {
+      "uri": "http://www.webserviceX.NET#Sums",
+      "lemma": "Sums",
+      "termUri": "",
+      "rdfType": {
+        "uri": "http://www.webserviceX.NET#Sums",
+        "lemma": "Sums",
+        "termUri": "",
+        "rdfType": {}
+      },
+      "hasList": [
+        {
+          "uri": "http://www.webserviceX.NET#Sums",
+          "lemma": "Sums",
+          "termUri": "",
+          "rdfType": {
+            "uri": "http://www.webserviceX.NET#Sums",
+            "lemma": "Sums",
+            "termUri": "",
+            "rdfType": {
+              "uri": "http://www.webserviceX.NET#Sums",
+              "lemma": "Sums",
+              "termUri": "",
+              "rdfType": {}
+            },
+            "hasList": []
+          },
+          "hasList": []
+        }
+      ]
+    },
+    "hasList": [
+      {
+        "uri": "http://www.webserviceX.NET#Sums",
+        "lemma": "Sums",
+        "termUri": "",
+        "rdfType": {
+          "uri": "http://www.webserviceX.NET#Sums",
+          "lemma": "Sums",
+          "termUri": "",
+          "rdfType": {
+            "uri": "http://www.webserviceX.NET#Sums",
+            "lemma": "Sums",
+            "termUri": "",
+            "rdfType": {}
+          },
+          "hasList": []
+        },
+        "hasList": []
+      }
+    ]
+  }
+]

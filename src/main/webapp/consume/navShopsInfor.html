@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+ <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+ <link rel="stylesheet" href="css/body.css" /> 
+ <title>完善提现资料</title>
+ <link rel="icon" href="../images/logo.png" /> 
+ <script src="../js/jquery/jquery-1.11.0.min.js" type="text/javascript"></script>
+ <script type="text/javascript" src="../js/jquery/jquery.json-2.3.min.js"></script>
+ <link rel="stylesheet" href="../js/artDialog/skins/black.css?4.1.2">
+ </link>
+ <script type="text/javascript" src="../js/uploadify/jquery.uploadify.js"></script>
+ <link rel="stylesheet" type="text/css" href="../js/uploadify/uploadify.css" />
+ <script src="../js/artDialog/artDialog.source.js?skin=black"></script>
+ <script src="../js/daily.js" type="text/javascript"></script>
+
+ <script src="../js/Area.js" type="text/javascript"></script>
+ <script src="../js/AreaData_min.js" type="text/javascript"></script>
+ <script src="../js/tll.js" type="text/javascript"></script>   
+ <script  src="../js/judg.js" type="text/javascript"></script> 
+  <script src="../js/common.js" type="text/javascript"></script>
+ <script src="../js/util.js" type="text/javascript"></script>
+ <script src="../js/main.js" type="text/javascript"></script>
+</head>
+<body>
+ <div class="registerBody">
+   <!--floor-->
+   <div class="head">
+    <span><a href="javascript:history.back(-1);" id="return"><</a></span>
+    <span class="title">消费养老系统</span>
+   </div>
+   <!--body-->
+   <div class="body">
+    <div class="number">区域商家</div>
+    <div class="infor">
+     <p class="borderBottom"><span class="red">区域信息</span></p> 
+     <p class="borderBottom"><span id="curArea" ></span></p>    
+     <p class="borderBottom"><span class="red">切换区域</span></p>      
+     <p> 
+	  <span class="tll">
+        <select id="userSeachprov" name="userSeachprov" onChange="changeComplexProvince(this.value, sub_array, 'userSeachcity', 'userSeachdistrict');"></select>
+		<select id="userSeachcity" name="homecity" onChange="changeCity(this.value,'userSeachdistrict','userSeachdistrict');"></select>
+		<span id="userSeachdistrict_div" class="tll"><select id="userSeachdistrict" name="userSeachdistrict"></select>
+		</span>
+      </span>
+      <span id="promptArea"></span>
+     </p>
+    </div>
+     
+    <div class="divSpace"></div>
+     
+    <div class="search">
+      <p>
+       <span class="rowRight coordinate">
+        <input type="text" name="UName" required="required" id="shopNameText">
+        <span class="verification"><a href="#" id="searchShopList">搜索店铺</a></span>
+       </span>
+      </p> 
+    </div>
+     
+    <div class="divSpace"></div>
+    
+    <div class="shopInfors">
+      <div class="shopTitle">
+       热门推荐        
+      </div>
+     <div id="shopsList">
+      
+    
+    </div>  <!--shopInfors End-->
+     
+    
+
+   </div>
+   <!--floor-->
+    <div class="floornull"></div>  
+  </div>
+
+  <!--End-Menu-->
+  <div class="endMenu">
+    <div class="button">≡<div class="buttonLight"></div></div>
+    <div class="nav">
+    <div class="menu">
+     <div class="title"><a href="javascript:;" id="nav01">信息中心</a></div>
+    </div><!--menu-->
+    <div class="menu">
+    <div class="title">用户中心</div>
+    <div class="trigon"></div>
+      <ul class="option">
+        <li><a href="javascript:;" id="nav02">用户资料</a></li>
+        <li><a href="javascript:;" id="nav03">消费返利</a></li>
+        <li><a href="javascript:;" id="nav04">推荐管理</a></li>
+        <li><a href="javascript:;" id="nav05">代理信息</a></li>
+        <li><a href="javascript:;" id="navShop">进入商店</a></li>        
+        <li><a href="javascript:;" id="nav06">店铺管理</a></li>   
+        <li><a href="javascript:;" id="nav07">转账记录</a></li>                        
+      </ul>
+    </div><!--menu-->
+    <div class="menu" >
+     <div class="title">帮助中心</div>
+    <div class="trigon"></div>
+        <ul class="option">
+         <li><a href="javascript:;" id="nav08">最新通知</a></li>
+         <li><a href="javascript:;" id="nav09">帮助中心</a></li>
+         <li><a href="javascript:;" id="nav10">联系客服</a></li>
+         <li><a href="javascript:;" id="nav11">登出</a></li>
+        </ul>
+    </div><!--menu-->
+ </div>
+ </div><!--menuwrap-->
+ <!--<div class="blankButton"></div>-->
+
+   
+</body>
+</html>

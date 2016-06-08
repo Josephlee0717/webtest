@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+ <link rel="stylesheet" href="css/body.css" /> 
+ <title>找回密码</title>
+ <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script> 
+ <script type="text/javascript" src="js/judg.js"></script>  
+ <script type="text/javascript" src="js/judg/changePwd.js"></script>  
+</head>
+<body>
+ <div class="registerBody">
+   <!--floor-->
+   <div class="head">
+    <span><a href="javascript:history.back(-1);" id="return"><</a></span>
+    <span class="title">消费养老系统</span>
+   </div>
+   <!--body-->
+   <div class="body">
+    <div class="number"></div>
+    <div class="write">
+     <p>
+      <span class="rowLeft">原始密码：</span>
+      <span class="rowRight"><input type="text" name="UName" required="required" id="historyPossword"></span>
+     </p>     
+     <div id="promptHis"></div>
+     <p>
+      <span class="rowLeft">新密码：</span>
+      <span class="rowRight"><input type="text" name="UName" required="required" id="possword"></span>
+     </p> 
+     <div id="promptPwd"></div>
+     <p>
+      <span class="rowLeft">再次输入：</span>
+      <span class="rowRight coordinate">
+       <input type="text" name="UName" required="required" id="again">
+      </span>
+     </p> 
+     <div id="promptAgain"></div>
+    </div>
+   </div>
+   <!--floor-->
+   <div class="floor">
+    <a href="#" class="registerA" id="changePwdBtn">修&nbsp;&nbsp;改</a>
+   </div>
+ </div>
+ <div class="floornull"></div>
+</body>
+</html>

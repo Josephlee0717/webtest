@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <link rel="icon" href="../images/logo.png" />
+ <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+ <title>代理信息</title> 
+ <link rel="stylesheet" href="css/body.css" /> 
+ <script src="../js/Area.js" type="text/javascript"></script>
+ <script src="../js/AreaData_min.js" type="text/javascript"></script>
+ <!-- <script src="../js/tll.js" type="text/javascript"></script>  -->
+ <script src="../js/jquery/jquery-1.11.0.min.js" type="text/javascript"></script>
+ <script type="text/javascript" src="../js/jquery/jquery.json-2.3.min.js"></script>
+ <link rel="stylesheet" href="../js/artDialog/skins/black.css?4.1.2"></link>
+ <script src="../js/artDialog/artDialog.source.js?skin=black"></script>
+ <script type="text/javascript" src="../js/uploadify/jquery.uploadify.js"></script>
+ <link rel="stylesheet" type="text/css" href="../js/uploadify/uploadify.css" />
+ <script src="../js/daily.js" type="text/javascript"></script>  
+ <script src="../js/common.js" type="text/javascript"></script> 
+ <script src="../js/util.js" type="text/javascript"></script>
+ <script src="../js/main.js" type="text/javascript"></script> 
+</head>
+<body>
+
+  <div class="registerBody">
+   <div class="head">
+    <span><a href="javascript:history.back(-1);" id="return"><</a></span>
+    <span class="title">消费养老系统</span>
+   </div>
+   <!--body-->
+   <div class="body">
+    <div class="number">代理信息</span>
+    </div>
+    <div class="infor">
+      <p class="borderBottom">
+      <span class="red">您所在区域代理信息</span>
+     </p> 
+     <p id="showAreaProxy" class="borderBottom">         
+      <span>代理ID：<span id="userid" class="tll"></span></span>
+      <span>代理联系方式：<span id="phonenumber" class="tll"></span></span>
+     </p>
+     <p class="borderBottom">
+      <span class="red">您的代理信息</span>
+     </p> 
+     <p class="borderBottom">
+     	<div id="proxyDetailList"></div>  
+     </p>
+     <p class="borderBottom">         
+      <span>您代理区域数：<span id="proxyAreaCount" class="tll"></span></span>
+      <span>您代理总收益：<span id="proxyConsume"  class="tll"></span> 元</span>
+      <span>您代理月收益：<span id="proxyMonthConsume" class="tll"></span> 元</span> 
+     </p>
+     <p class="borderBottom">
+      <span><a href="addAgent.html">申请区域代理</a></span>      
+     </p>   
+     <p class="borderBottom">
+      <span class="red">详细信息</span>
+     </p> 
+     <div id="proxyList">
+     <!-- <p class="borderBottom">
+      <span>代理区域：<span class="tll">湖北省-武汉市-武昌区</span></span>
+     </p> 
+     <p class="borderBottom">
+      <span>区域用户数：<span class="tll">720</span></span>
+      <span>区域商户数：<span class="tll">56</span></span>
+      <span>当月注册用户：<span class="tll">305</span></span>            
+      <span>当月注册商户：<span class="tll">30</span></span>            
+      <span>区域总营业额：<span class="tll">409123</span> 元</span>
+      <span>区代理总收益：<span class="tll">4091</span> 元</span>      
+      <span>区域月营业额：<span class="tll">40123</span> 元</span>     
+      <span>区代理月收益：<span class="tll">401</span> 元</span>             
+     </p> -->
+     </div>
+     
+    </div>
+    <div class="floornull"></div>      
+   </div>
+ 
+  <!--End-Menu-->
+  <div class="endMenu">
+    <div class="button">≡<div class="buttonLight"></div></div>
+    <div class="nav">
+    <div class="menu">
+     <div class="title"><a href="javascript:;" id="nav01">信息中心</a></div>
+    </div><!--menu-->
+    <div class="menu">
+    <div class="title">用户中心</div>
+    <div class="trigon"></div>
+      <ul class="option">
+        <li><a href="javascript:;" id="nav02">用户资料</a></li>
+        <li><a href="javascript:;" id="nav03">消费返利</a></li>
+        <li><a href="javascript:;" id="nav04">推荐管理</a></li>
+        <li><a href="javascript:;" id="nav05">代理信息</a></li>
+        <li><a href="javascript:;" id="navShop">进入商店</a></li>
+        <li><a href="javascript:;" id="nav06">店铺管理</a></li>   
+        <li><a href="javascript:;" id="nav07">转账记录</a></li>                        
+      </ul>
+    </div><!--menu-->
+    <div class="menu" >
+     <div class="title">帮助中心</div>
+    <div class="trigon"></div>
+        <ul class="option">
+         <li><a href="javascript:;" id="nav08">最新通知</a></li>
+         <li><a href="javascript:;" id="nav09">帮助中心</a></li>
+         <li><a href="javascript:;" id="nav10">联系客服</a></li>
+         <li><a href="javascript:;" id="nav11">登出</a></li>
+        </ul>
+    </div><!--menu-->
+ </div>
+ </div><!--menuwrap-->
+ <!-- <div class="blankButton"></div> -->
+</body>
+</html>

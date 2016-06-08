@@ -41,6 +41,11 @@ public class webtest {
 		return rtn.toString();
 	}
 	
+	/**
+	 * GET return fee from pay table
+	 * @lijun
+	 */
+	
 	public static String getReturnFee(){
 		//Total of customer consume
 		double consumeTotal = 1453.87;
